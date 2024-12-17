@@ -12,18 +12,18 @@
         href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <style>
-        .logo{
+        .logo {
             font-family: "Amatic SC", sans-serif;
         }
     </style>
 </head>
 <body>
-
     <div class="w-full h-[100vh] bg-[rgb(247,247,247)]">
-        <div class="hamburger absolute right-[50px] top-[40px]" onclick="openMenu()">
+        <div class="hamburger absolute right-[50px] top-[40px] hover:cursor-pointer" onclick="openMenu()">
             <i class="ri-menu-line text-[red] text-2xl font-bold text-"></i>
         </div>
-        <div class="left-sidebar transition-all translate-x-[-100%] ease duration-500 bg-white sm:w-[35%] h-[100vh] w-[50%]">
+        <div
+            class="left-sidebar transition-all translate-x-[-100%] ease duration-500 bg-white sm:w-[35%] h-[100vh] w-[50%]">
             <div class="flex justify-between">
                 <h1 class="logo text-4xl font-[900] text-[red] p-5 mb-5">Arjuns sidebar </h1>
                 <i class="ri-close-line text-3xl font-bold p-5 text-[red]" onclick="closeMenu()"></i>
@@ -42,5 +42,4 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./script.js"></script>
 </body>
-
 </html>
